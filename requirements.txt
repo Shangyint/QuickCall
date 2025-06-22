@@ -1,0 +1,10 @@
+# LiveKit Agent Dependencies
+livekit
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-cartesia
+livekit-plugins-deepgram
+python-dotenv
+
+# Letta Client
+letta-client

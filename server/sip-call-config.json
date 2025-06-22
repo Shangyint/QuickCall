@@ -1,0 +1,9 @@
+{
+  "sip_number": "+18336813828",
+  "sip_trunk_id": "ST_LgQdMYv7NnfA",
+  "sip_call_to": "+your phone number",
+  "room_name": "test-room",
+  "participant_identity": "sip-test",
+  "participant_name": "Test call participant",
+  "wait_until_answered": true
+}

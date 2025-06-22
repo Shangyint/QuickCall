@@ -1,0 +1,20 @@
+{
+  "name": "quickcall-server",
+  "version": "1.0.0",
+  "description": "Backend server for QuickCall telephony integration",
+  "main": "twilioWebhook.js",
+  "scripts": {
+    "start": "node twilioWebhook.js",
+    "dev": "nodemon twilioWebhook.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "twilio": "^4.19.0",
+    "livekit-server-sdk": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

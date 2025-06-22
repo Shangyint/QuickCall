@@ -1,0 +1,31 @@
+# LiveKit SIP Configuration for Twilio
+sip:
+  # SIP port (default 5060)
+  port: 5060
+  
+  # Authentication for inbound SIP calls
+  auth:
+    username: "livekit_sip"
+    password: "your_secure_password_here"
+  
+  # Twilio trunk configuration
+  trunks:
+    - name: "twilio-trunk"
+      # This will be your Twilio SIP domain
+      host: "your-domain.sip.twilio.com"
+      port: 5060
+      
+      # Authentication for outbound calls to Twilio
+      auth:
+        username: "your_twilio_sip_username" 
+        password: "your_twilio_sip_password"
+      
+      # Number routing
+      numbers:
+        - "+15551234567"  # Your Twilio phone number
+
+# Optional: Enable logging for debugging
+logging:
+  level: debug
+  loggers:
+    sip: debug
